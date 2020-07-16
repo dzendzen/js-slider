@@ -19,17 +19,7 @@ prevBtn.addEventListener("click", () => {
 });
 
 function carousel() {
-  // working with slides
-  // circling
-  //   if (counter === slides.length) {
-  //     counter = 0;
-  //   }
-  //   if (counter < 0) {
-  //     counter = slides.length - 1;
-  //   }
-  //
-  //
-  // hiding btn when next or prev not available
+  
   if (counter < slides.length - 1) {
     nextBtn.style.display = "block";
   } else {
